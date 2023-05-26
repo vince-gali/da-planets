@@ -1,0 +1,13 @@
+
+  {
+    "name": "da-planets",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd da-planets.client && npm i",
+      "setup:server": "cd da-planets && npm i",
+      "start": "node da-planets/index.js"
+    }
+  }
+  
